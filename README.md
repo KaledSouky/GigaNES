@@ -25,14 +25,14 @@ In the field of emulation, the [STM32H747XI](https://www.st.com/en/microcontroll
 Unlike typical portable emulation projects based on Single-Board Computers (SBCs) like the Raspberry Pi 5 or Orange Pi, **GigaNES operates entirely on bare-metal hardware**. While high-performance MPUs rely on a complex Linux operating system layer—which introduces multi-threaded scheduling overhead, driver abstraction, and unpredictable input lag (ranging from 15 to 50 ms)—this project achieves a **near-zero latency (< 1 ms)** gaming experience. By avoiding the heavy overhead of an OS kernel, the Cortex-M7 core samples controller inputs through direct low-level register access in a deterministic manner. Furthermore, this MCU-centric design eliminates data corruption risks during sudden power-offs, boots instantly in under a second, and operates with extreme thermal efficiency, delivering a silent, fanless, and robust console experience that modern MPU-based alternatives cannot replicate.
 
 <p align="center">
-  <a href="  " target="_blank">
+  <a href="https://www.youtube.com/watch?v=UeTaBbGmuQU" target="_blank">
     <img src="./docs/GigaNES_Shield_Concept.png" width="60%" alt="Video on YouTube">
   </a>
 </p>
 
 <div align="center">
   
- 📽️ [Video on YouTube](   )
+ 📽️ [Video on YouTube](https://www.youtube.com/watch?v=UeTaBbGmuQU)
 
 </div>
 
